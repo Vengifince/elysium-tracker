@@ -1,0 +1,541 @@
+.elysium-app {
+  height: 550px; 
+  width: 525px;
+  background: #e2e2e2; 
+  margin: auto;
+  position: relative; 
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.elysium-app .member-group {
+  height: 80px; 
+  width: 100%; 
+  background: #f4f4f4;
+  line-height: 1;
+  font-family: 'Comfortaa', cursive;
+  color: #c6c6c6;
+  border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;		
+}
+.elysium-app .member-group h1 {
+  font-size: 25px; 
+background: #121FCF;
+background: -webkit-linear-gradient(to right, var(--main) 0%, var(--accent) 100%);
+background: -moz-linear-gradient(to right, var(--main) 0%, var(--accent) 100%);
+background: linear-gradient(to right, var(--main) 0%, var(--accent) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  margin-top: -40px;
+  margin-left: 110px;
+  font-style: italic;
+  text-transform: uppercase;
+  
+}
+
+.elysium-app .member-group h2 {
+  font-size: 50px; 
+  color: #c6c6c6;
+  margin-left: 150px;
+  margin-top: 5px;
+  opacity: .30;
+}
+
+
+.elysium-app .icon {
+	font-size: 85px;
+	position: absolute;
+	left: 20px;
+	top: -15px;
+	color: #DDDDDD;
+		padding: 7px;
+
+}
+.elysium-app .profile-image {
+  width: 200px; 
+  height: 250px;  
+  margin-top: 20px; 
+  margin-left: 390px;
+  background: #fff;
+  border-radius: 20px 20px 0px 0px;
+
+  
+}
+.elysium-app .profile-image img {
+  width: 140px; 
+  height: 435px;
+  border-radius: 10px 0px 0px 10px;
+}
+.elysium-app .profile-constant {
+  width: 190px; 
+  height: 15px;
+  margin-top: 10px; 
+  margin-left: 390px;
+  background: #c6c6c6;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #F4F4F4;
+}
+.elysium-app .profile-basics {
+  height: 210px; 
+  width: 370px; 
+  background: #f4f4f4; 
+  position: absolute; 
+  bottom: 225px;
+  left: 10px;
+  padding-top: 25px;
+  box-sizing: border-box; 
+  border: 25px solid transparent;
+  border-radius: 10px 10px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  overflow: auto;
+}
+
+.elysium-app .profile-header {
+ height: 25px; 
+  width: 360px;
+   border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--main) 100%);
+position: absolute;
+top: 100px;
+left: 10px;
+  font-size: 10px; 
+  line-height: 1px; 
+  padding: 5px;
+  z-index: 2;
+}
+
+.elysium-app .profile-header h1 {
+font-family: 'Comfortaa', cursive;
+margin-left: 125px;
+color: #F4F4F4;
+font-size: 20px;
+  
+}
+
+.elysium-app .profile-basics blockquote {
+margin: 10px; 
+padding: 10px; 
+border-radius: 5px;
+border: 1px solid #CCCCCC;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+background-color: #E2E2E2;
+  
+}
+
+
+.elysium-app .profile-basics b {
+font-family: 'Comfortaa', cursive;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase; 
+line-height: 130%;  
+-webkit-text-fill-color: transparent; -webkit-background-clip: text;  background-image: linear-gradient(129deg, var(--main) 0%, var(--accent) 100%);
+letter-spacing: 1px; }
+
+
+.elysium-app .profile-header2 {
+ height: 15px; 
+  width: 170px;
+   border-radius: 10px 10px 0px 0px;
+  background: var(--main);
+position: absolute;
+top: 335px;
+left: 10px;
+  font-size: 12px; 
+  line-height: 1px; 
+  padding: 5px;
+  z-index: 2;
+}
+
+
+.elysium-app .profile-header2 h1 {
+  font-family: 'Comfortaa', cursive;
+margin-left: 55px;
+color: #F4F4F4;
+font-size: 20px;
+}
+
+
+.elysium-app .profile-skills {
+   display: block;
+  height: 75px;
+  width: 180px; 
+  background: #f4f4f4; 
+  margin-left: 10px; 
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  overflow: auto;
+  }
+  
+  .elysium-app .profile-skills span { 
+    background: var(--accent);
+     border-radius: 5px;
+    padding: 9px;
+    display: block;
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    color: #f4f4f4;
+    font-weight: 900;
+position: relative;
+bottom: -20px;
+left: 2px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+flex-grow: 1;
+  }
+  
+  
+ .elysium-app-bars {
+    width: 120px;
+    height: 160px;
+    border-radius: 2px;	
+    position: absolute;
+    right: 90px;
+    bottom: 30px;
+    padding: 20px 50px;	
+    text-align:right;
+    
+  }
+  
+  .elysium-app-bars b, i, u { 
+   color:var(--accent);
+  
+  }
+  
+  
+   .trait {	
+     padding: 5px 10px;
+     margin: -10px 0 0px -70px;	
+     border-radius:2px;
+     text-align:left;
+     
+   }
+  .traitFill {
+ width:100%;
+    border-radius: 10px;
+    height:10px;	
+    padding: 5px;
+    box-sizing: border-box;
+    background: #fff;
+    display:flex;	
+    margin: 1px 0;}
+    
+  .traitFill div {
+    display:inline-block;
+background: linear-gradient(90deg, var(--main) 0%, var(--accent) 100%);
+     height: 4px;
+     margin: -2px;
+    border-radius: 50px;
+    
+  }
+  .trait b {	font:600 7pt 'montserrat',
+  sans-serif;	
+letter-spacing: 3;
+  padding: 10px;
+  color:#777;
+  }
+}
+
+
+
+.elysium-app .profile-player {
+  height: 40px; 
+  width: 590px;
+  background: linear-gradient(90deg, var(--main) 0%, var(--accent) 100%);
+  margin-top: 10px;
+  font-size: 12px; 
+  line-height: 1px; 
+  padding: 5px;
+  font-family: 'Comfortaa', cursive;
+  color: F4F4F4;
+}
+.elysium-app .toggle-content {
+  height: 440px;
+  width: 370px;
+  background: #F4F4F4;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  box-sizing: border-box;
+  border: 25px solid transparent;
+  border-radius: 10px; 
+font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+  text-align: justify; 
+  color: #444; 
+  font-size: 14px; 
+  opacity: 0;
+  transition: .5s;
+   margin-left: -390px;
+   z-index: 3;
+   padding-top: 15px;
+}
+
+.elysium-app .toggle-content h1 {
+font-size: 19px;
+color: #CCCCCC;
+}
+
+.elysium-app .toggle-content hr {
+ background: #dadada;
+    border: 0px;
+    display: block;
+    height: 1px;
+    margin: 25px 5px 15px;
+}
+
+.elysium-app .toggle-content b {
+    color: var(--main);
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 14px;
+}
+
+.elysium-app .toggle-content i {
+   font-family: 'Montserrat';
+  border-bottom: 2px solid var(--accent);
+text-decoration:none; 
+}
+
+.elysium-app input {
+  display: none
+  
+}
+.elysium-app label {
+  height: 35px; 
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  width: 40px;
+  background: var(--main);
+  line-height: 4px; 
+  text-transform: uppercase; 
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-radius: 10% 10% 10% 10%;
+  z-index: 4;
+  transition: .5s;
+}
+
+.elysium-app label span {
+color: #fff;
+    text-outline: 1px solid #E2E2E2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #585858;
+ cursor: pointer;
+font-size: 25px;
+position: absolute;
+left: 7px;
+bottom: 5px;
+text-align: center;
+
+
+}
+.elysium-app input:checked+label {background: var(--accent);
+  transition: .5s;
+  
+}
+.elysium-app input:checked+label ~ .toggle-content {opacity: 1;
+    margin-left: 0px;
+    transition: .5s;
+}
+
+.elysium-app ::-webkit-scrollbar { width: 0px; background-color: transparent; }
+
+.elysium-app a:before {
+  content:'#';
+  color: var(--accent);
+}
+  
+.elysium-app-aesthetic img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 435px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.elysium-app-aesthetic2 img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 435px;
+  margin-left: 145px;
+  border-radius: 10px;
+}
+.elysium-app-aesthetic3 img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 435px;
+  margin-left: 270px;
+  border-radius: 10px;
+}
+
+ .elysium-app-threads::-webkit-scrollbar { width: 0px; background-color: transparent;
+   
+   
+ }
+
+ 
+
+.elysium-app-seasons
+{
+z-index: 2;
+position: sticky;
+left: 15px;
+width: 190px;
+height: 25px;
+border-radius: 0px 20px 20px 0px;
+padding-right: 10px;
+padding-top: 5px;
+padding-left: 10px;
+padding-bottom: 10px;
+  background-color: #e2e2e2;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  color: #828282;
+  line-height: 25px;
+}
+
+
+.elysium-appThread-active, .elysium-appThread-complete {
+  position: relative;
+  width: 250px;
+  display: block; 
+  margin-left: 20px;
+  padding: 10px;
+  line-height: 1.2;
+  min-height:30px;
+  text-align:left;
+  font-size: 14px;
+
+}
+
+.elysium-appThread-active a, .elysium-appThread-complete a {
+  position: relative;
+  display: inline-block;
+  font-weight:600;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  text-align:left;
+  overflow: hidden;
+  color: var(--accent);
+   vertical-align: bottom;
+   transition: color .3s ease-out;
+cursor: pointer;
+}
+
+
+.elysium-appThread-active a::before {
+ content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   transform: translateY(calc(100% - 2px));
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(60deg, var(--main) 0%, var(--accent) 100%);
+   transition: transform .25s ease-out;
+}
+
+.elysium-appThread-active a:hover {
+color: #fff; 
+}
+
+.elysium-appThread-active a:hover::before {
+   transform: translateY(0);
+   transition: transform .25s ease-out;
+  
+}
+
+
+.elysium-appThread-active span, .elysium-appThread-complete span {
+ margin-right: 6px;
+  color: #7A7A7A;
+  font-size: 9pt;
+  display: inline-block;
+  background-color: #F5F5F5;
+  padding: 3px 5px 3px 5px;
+  margin: 2px 4px 2px 0px;
+}
+
+.elysium-appThread-active span:before, .elysium-appThread-complete span:before {
+  content:'#';
+  color:var(--accent);
+  font-weight:600;
+}
+
+.elysium-appThread-complete {
+  opacity:0.75;
+}
+
+.elysium-appThread-complete a {
+  color:#8d8d8d!important;
+}
+
+.elysium-appThread-complete span:before {
+  color:#8d8d8d!important;
+}
+
+.elysium-app-seasonsicon
+{margin-top: -27px;
+margin-left: 160px;
+background: -webkit-linear-gradient(var(--main), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 30px;
+}
+
+     .elysium-appThread-active .pride {
+    -webkit-text-fill-color: #693C72;
+    color: #693C72 !important;
+  }
+
+  .elysium-appThread-active .lust {
+    -webkit-text-fill-color: #b72a5b;
+    color: #b72a5b !important;
+
+  }
+
+    .elysium-appThread-active .greed {
+    -webkit-text-fill-color: #bc7a09;
+    color: #bc7a09 !important;
+
+  }
+
+    .elysium-appThread-active .envy {
+    -webkit-text-fill-color: #5f9b34;
+    color: #5f9b34 !important;
+
+
+  }
+  
+      .elysium-appThread-active .wrath {
+    -webkit-text-fill-color: #ba1010;
+    color: #ba1010 !important;
+
+  }
+  
+      .elysium-appThread-active .sloth {
+    -webkit-text-fill-color: #7171DC;
+    color: #7171DC !important;
+
+  }
+
+      .elysium-appThread-active .gluttony {
+    -webkit-text-fill-color: #ba5900;
+    color: #ba5900 !important;
+
+
+  }
